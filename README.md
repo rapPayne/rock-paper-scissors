@@ -10,9 +10,20 @@
 
 ## Introduction
 - Take a look at the HTML, CSS, and JavaScript starters provided to you. Make sure you have the gist of what they're doing to begin with.
+- Note that we've already provided you with most of the DOM manipulation. We've created some DOM elements and some click event handlers.
+- You also already have an array called handChoices.
+
+## Variables Lab
+- Create two new variables called computerHand and humanHand. Initialize them to "".
+- Create a function called `showHands` that will display computerHand in the computerHandDiv and humanHand in the humanHandDiv. Test it out with some hardcoded values to make sure you're seeing them on the page.
+- Call `showHands()` when the newGameButton is clicked.
+- Create a function called `selectRockPaperOrScissors`. It should randomly return 'Rock', 'Paper', or 'Scissors'. Test this out to make sure you're getting fairly random results.
+- When the humanHandDiv is clicked, use selectRockPaperOrScissors() to populate the computerHand, then to populate the humanHand. Then display their values by calling showHands().
 
 ## Operators Lab
-- 
+- Create a function called `checkWinner()`. Make it evaluate the computerHand and the humanHand.
+- If the computer won, the resultSection should say "Computer wins". If the human won, resultSection should say "You win". And if it is a tie, say so in resultSection.
+- Call this function after the hands have been set in humanHandDiv's click event handler.
 
 ## Arrays Lab
 - Create a new function called saveResult()
