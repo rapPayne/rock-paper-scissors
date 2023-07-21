@@ -1,0 +1,31 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  --dark: black;
+  --light: white;
+}
+
+main {
+  display: flex;
+}
+
+section#gameboard {
+  flex: 1 1 500px;
+}
+
+section#scoreboard {
+  flex: 1 1 200px;
+  border: 1px solid var(--dark);
+}
+
+#hands {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.hand {
+  border: 2px solid var(--dark);
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+}
